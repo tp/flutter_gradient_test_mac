@@ -1,16 +1,11 @@
 # flutter_gradient_test_mac
 
-A new Flutter project.
+Shows how the output `flutter test` is visibly different for gradient across AMD64 and ARM64 Docker containers on Mac.
 
-## Getting Started
+# How to run
 
-This project is a starting point for a Flutter application.
+```
+docker build -t flutter-2.5.3 docker
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+docker run --rm -v $(pwd):/app flutter-2.5.3
+```
