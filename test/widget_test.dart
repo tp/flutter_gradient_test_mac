@@ -11,15 +11,20 @@ void main() {
             data: darkTheme,
             child: Stack(
               children: [
-                Container(
-                  decoration: const BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topRight,
-                      end: Alignment.bottomLeft,
-                      colors: [
-                        Color.fromRGBO(255, 221, 0, 1),
-                        Color.fromRGBO(246, 178, 34, 1),
-                      ],
+                Positioned(
+                  height: 120,
+                  left: 0,
+                  right: 0,
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topRight,
+                        end: Alignment.bottomLeft,
+                        colors: [
+                          Color.fromRGBO(255, 221, 0, 1),
+                          Color.fromRGBO(246, 178, 34, 1),
+                        ],
+                      ),
                     ),
                   ),
                 ),
