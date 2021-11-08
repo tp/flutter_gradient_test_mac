@@ -2,6 +2,8 @@
 
 Shows how the output `flutter test` is visibly different for gradient across AMD64 and ARM64 Docker containers on Mac.
 
+But they are similar when running on the Mac natively.
+
 # How to run
 
 ```
