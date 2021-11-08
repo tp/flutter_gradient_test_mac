@@ -1,0 +1,52 @@
+[✓] Flutter (Channel unknown, 2.5.3, on macOS 12.0.1 21A559 darwin-arm, locale en-DE)
+    • Flutter version 2.5.3 at /Users/timm/Sources/flutter
+    • Upstream repository unknown
+    • Framework revision 18116933e7 (3 weeks ago), 2021-10-15 10:46:35 -0700
+    • Engine revision d3ea636dc5
+    • Dart version 2.14.4
+
+[!] Android toolchain - develop for Android devices (Android SDK version 31.0.0)
+    • Android SDK at /Users/timm/Library/Android/sdk
+    ✗ cmdline-tools component is missing
+      Run `path/to/sdkmanager --install "cmdline-tools;latest"`
+      See https://developer.android.com/studio/command-line for more details.
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/macos#android-setup for more details.
+
+[✓] Xcode - develop for iOS and macOS
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 13.1, Build version 13A1030d
+    • CocoaPods version 1.11.2
+
+[✓] Chrome - develop for the web
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[!] Android Studio
+    • Android Studio at /Applications/Android Studio Preview.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    ✗ Unable to find bundled Java version.
+    • Try updating or re-installing Android Studio.
+
+[✓] Android Studio (version 2020.3)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.10+0-b96-7249189)
+
+[✓] VS Code (version 1.62.0)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.28.0
+
+[✓] Connected device (4 available)
+    • M2006C3LG (mobile)         • USS85TUC7PWSJNQG                     • android-arm    • Android 10 (API 29)
+    • iPhone 12 Pro Max (mobile) • B2D9BDF5-8B9D-46E8-8B7B-9405D02E8802 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-15-0 (simulator)
+    • macOS (desktop)            • macos                                • darwin-arm64   • macOS 12.0.1 21A559 darwin-arm
+    • Chrome (web)               • chrome                               • web-javascript • Google Chrome 95.0.4638.69
+
+! Doctor found issues in 2 categories.
